@@ -1,0 +1,442 @@
+{
+  "Kategorie": "Konsilium",
+  "Inhalte": [
+    {
+      "Erkrankung": "Alzheimer's disease",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 475,
+          "Fragesteller": "Frage einer Neurologin aus Köln",
+          "Headline": "Biomarker bei früher Gedächtnisstörung – wann Liquor, wann PET?",
+          "Frage": "72-jähriger Patient mit progredienter Gedächtnisstörung, unauffälligem Standardlabor und MRT mit leicht generalisierter Atrophie. Wann sind Liquor‑Biomarker (Aβ42, p‑Tau, t‑Tau) oder ein Amyloid‑PET sinnvoll, und wie entscheide ich zwischen beiden?",
+          "Antwort": "Bei klinischem Verdacht auf beginnende Alzheimer‑Krankheit und unspezifischer Bildgebung sind   Liquor‑Biomarker   first‑line, da sie verfügbar, kosteneffizient und diagnostisch gut validiert sind. Ein   Amyloid‑PET   ist eine Alternative, wenn eine Lumbalpunktion kontraindiziert/abgelehnt ist oder wenn nach Liquorbefund noch diagnostische Unsicherheit besteht. Entscheidungsfaktoren: Invasivität (LP), Kosten/Verfügbarkeit (PET), Fragestellung (Amyloid vs. Tau), sowie lokale Expertise. Ergebnisintegration immer im   klinischen Kontext   mit Anamnese, kognitiver Testung (MoCA/MMSE) und Bildgebung.",
+          "Autor": "Prof. Dr. med. Julia Hartmann (Universitätsklinikum Freiburg)",
+          "Datum": "2025-10-01"
+        },
+        {
+          "FrageID": 476,
+          "Fragesteller": "Frage eines Neurologen aus Nürnberg",
+          "Headline": "Therapie im frühen Stadium – was ist realistisch?",
+          "Frage": "Bei gesicherter Alzheimer‑Diagnose im leichten Stadium: Welche medikamentösen und nichtmedikamentösen Maßnahmen haben den größten Nutzen in der Praxis?",
+          "Antwort": "Medikamentös:   Cholinesterasehemmer   (Donepezil, Rivastigmin, Galantamin) zeigen moderate Verbesserungen in Kognition/Alltag;   Memantin   ab moderatem Stadium. Regelmäßige Evaluation von Nutzen/Nebenwirkungen (alle 6–12 Monate). Nichtmedikamentös:   Ausdauertraining  , kognitives Training,   Schlaf‑ und Depressionsmanagement  , vaskuläre Risikokontrolle (RR, DM, Lipide). Zudem: Angehörigen‑Schulung, Fahrfähigkeit prüfen, frühe   Advance‑Care‑Planung  . Kombinationstherapien und strukturierte Tagesplanung verbessern Lebensqualität messbar.",
+          "Autor": "PD Dr. med. Felix Bernsdorf (Klinikum rechts der Isar, München)",
+          "Datum": "2025-12-22"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Amyotrophic lateral sclerosis",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 477,
+          "Fragesteller": "Frage einer Neurologin aus Düsseldorf",
+          "Headline": "Diagnostik bei suspekter ALS – wie viel ist genug?",
+          "Frage": "58-jähriger Mann mit progredienter Schwäche und Faszikulationen an beiden Armen. EMG spricht für motorische Neuronenerkrankung. Welche Zusatzuntersuchungen sind sinnvoll, um Differentialdiagnosen sicher auszuschließen?",
+          "Antwort": "Neben detailliertem   EMG mehrerer Regionen  : Labor (Borrelien‑Serologie, CK, Schilddrüse, Paraproteine),   MRT HWS/BWS   (Myelopathie/Foramenstenose),   Nervenleitgeschwindigkeit   (Multifokale motorische Neuropathie), evtl.   Gangliosid‑AK  ; bei atypischem Verlauf Lumbalpunktion. Screening auf   frontotemporale Beteiligung   (Neuropsychologie). Ziel: Revidierbare Ursachen ausschließen, gleichzeitig Überdiagnostik vermeiden.",
+          "Autor": "Prof. Dr. med. Hannah Vogt (Universitätsmedizin Mainz)",
+          "Datum": "2025-01-07"
+        },
+        {
+          "FrageID": 478,
+          "Fragesteller": "Frage eines Neurologen aus Hannover",
+          "Headline": "Therapiestart und Verlauf – Riluzol, Edaravon & Co.",
+          "Frage": "Wann beginne ich Riluzol, welche Dosis, und wann kommen Edaravon oder klinische Studien in Betracht?",
+          "Antwort": "  Riluzol   50 mg 2×/Tag   so früh wie möglich   nach Diagnosesicherung; Leberwerte initial/regelmäßig kontrollieren.   Edaravon   kann bei früher/milder Erkrankung mit rascher Progression erwogen werden (je nach Zulassung/Verfügbarkeit). Immer frühzeitig:   Atemparameterscreening   (VC, SNIP),   Ernährungs‑ und Schluckmanagement  , orthopädie‑technische Hilfen,   multidisziplinäre ALS‑Sprechstunde  . Studienoptionen proaktiv prüfen; sie bieten Zugang zu innovativen Therapien und engmaschigem Monitoring.",
+          "Autor": "Dr. med. Oliver Stein (ALS‑Zentrum Nord, Bremen)",
+          "Datum": "2025-04-03"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Carpal tunnel syndrome",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 479,
+          "Fragesteller": "Frage einer Neurologin aus Augsburg",
+          "Headline": "Konservativ oder operieren – Entscheidungsalgorithmen im Alltag",
+          "Frage": "Leichtes CTS rechts, nächtliche Parästhesien, NLG grenzwertig, keine Atrophie. Wie lange konservativ behandeln, bevor ich eine OP empfehle?",
+          "Antwort": "Bei mildem CTS:   Handgelenksschiene nachts   für 6–12 Wochen, Ergonomie‑Coaching, ggf.   ultraschallgesteuerte Steroidinjektion  . Re‑Evaluation nach 8–12 Wochen (klinisch + NLG/Ultraschall).   OP‑Indikation   bei persistierenden Symptomen, Funktionsverlust, Thenaratrophie oder deutlicher Nervenkompression (NLG/US). Frühzeitige OP bei   schwerem Defizit   verhindert irreversible Schäden.",
+          "Autor": "Dr. med. Laura König (Neuro‑Handsprechstunde, LMU München)",
+          "Datum": "2025-06-13"
+        },
+        {
+          "FrageID": 480,
+          "Fragesteller": "Frage eines Neurologen aus Essen",
+          "Headline": "Negatives EMG, aber typische Klinik – was nun?",
+          "Frage": "Patientin mit klassischen CTS‑Beschwerden, aber unauffälligem EMG/NLG. Ist CTS damit ausgeschlossen?",
+          "Antwort": "Nein. Frühstadien können elektrophysiologisch   noch unauffällig   sein. Ergänze   Ultraschall   (N. medianus‑Querschnitt), provozierende Tests (Phalen, Tinel), und erwäge   diagnostische Schienentherapie  . Bei klinischer Besserung trotz negativem EMG ist CTS weiterhin wahrscheinlich; Verlaufskontrolle und ggf. erneute NLG nach 3–6 Monaten.",
+          "Autor": "PD Dr. med. René Albrecht (Universitätsklinikum Bonn)",
+          "Datum": "2025-07-19"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Cervicogenic headache",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 481,
+          "Fragesteller": "Frage einer Neurologin aus Leipzig",
+          "Headline": "Bildgebung und Red Flags bei zervikogenem Kopfschmerz",
+          "Frage": "Welche Bildgebung ist bei Verdacht auf cervicogenen Kopfschmerz angezeigt und wann sind Red‑Flags gegeben?",
+          "Antwort": "Bei typischem Verlauf reicht oft   klinische Diagnostik  . Bildgebung (MRT HWS) bei   neu aufgetretenen  , progredienten Schmerzen, Trauma,   neurologischen Defiziten  , systemischen Red‑Flags (Fieber, Gewichtsverlust) oder Therapieversagen. DD: zervikale Radikulopathie, Arteria‑dissektion, Myelopathie. Interdisziplinär mit Orthopädie/Physio denken.",
+          "Autor": "Dr. med. Katharina Jost (Schmerzzentrum Nürnberg)",
+          "Datum": "2025-02-14"
+        },
+        {
+          "FrageID": 482,
+          "Fragesteller": "Frage eines Neurologen aus Bochum",
+          "Headline": "Was hilft wirklich? – Evidenzbasierte Therapie",
+          "Frage": "Welche nichtmedikamentösen Maßnahmen haben die beste Evidenz bei cervicogenem Kopfschmerz?",
+          "Antwort": "  Manualtherapie  , gezieltes   Nacken‑/Scapula‑Stabilisationstraining  , Haltungs‑ und Belastungssteuerung, Kurzzeit‑NSAR. Bei Triggergelenken:   C2/3‑Blockaden   oder Facettengelenks‑Infiltrationen (spezialisiert). Patientenedukation, ergonomische Anpassungen und Hausübungsprogramme sind zentral.",
+          "Autor": "Prof. Dr. med. Sven Keller (Universitätsmedizin Rostock)",
+          "Datum": "2025-04-01"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Cluster headache",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 483,
+          "Fragesteller": "Frage einer Neurologin aus Stuttgart",
+          "Headline": "Akuttherapie – was wirkt am schnellsten?",
+          "Frage": "Bei episodischem Clusterkopfschmerz: Welche Akuttherapie soll ich zuerst verordnen?",
+          "Antwort": "  Subkutanes Sumatriptan (6 mg)   oder   100 % Sauerstoff   (12–15 l/min über Non‑Rebreather für 15–20 min) sind first‑line. Patienten schulen (Selbstinjektion, O2‑Maske). Alternativen: Zolmitriptan Nasenspray. NSAR sind meist unwirksam.",
+          "Autor": "Dr. med. Miriam Schulte (Kopfschmerzambulanz Mannheim)",
+          "Datum": "2025-01-17"
+        },
+        {
+          "FrageID": 484,
+          "Fragesteller": "Frage eines Neurologen aus Kiel",
+          "Headline": "Prophylaxe in der Episode – Verapamil sicher einsetzen",
+          "Frage": "Wie stelle ich Verapamil bei Clusterkopfschmerz ein und worauf muss ich achten?",
+          "Antwort": "Start   80 mg 2–3×/Tag  , langsame Titration bis 240–480 mg/Tag (selten höher). Vor jeder Dosissteigerung   EKG   (PR‑Verlängerung/Block). Übergangsweise   Prednisolon‑Stoß   (z. B. 100 mg taper) bis Verapamil wirkt. Bei Kontraindikationen Alternativen: Lithium, Topiramat, CGRP‑mAbs (episodisch/chronisch je nach Zulassung).",
+          "Autor": "Prof. Dr. med. Tobias Rehm (Universitätsklinikum Jena)",
+          "Datum": "2025-08-31"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Delirium",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 485,
+          "Fragesteller": "Frage einer Neurologin aus Bremen",
+          "Headline": "Delir vs. Psychose – die praktische Abgrenzung",
+          "Frage": "Ältere Patientin mit Desorientierung und optischen Halluzinationen. Wie grenze ich Delir von primärpsychiatrischen Störungen ab?",
+          "Antwort": "Delir:   akuter Beginn  ,   fluktuierender Verlauf  ,   Aufmerksamkeitsstörung  , gestörter Schlaf‑Wach‑Rhythmus, oft somatische Auslöser (Infekt, Dehydratation, Medikamente). Psychosen: meist klare Vigilanz/Orientierung. Basisdiagnostik:   4AT/Confusion Assessment Method  , Labor, Urinstatus, Medikamentenreview (Anticholinergika, Opiate), ggf. CCT/MRT bei fokalen Zeichen.",
+          "Autor": "PD Dr. med. Eva Reuter (Geriatrische Klinik Hamburg)",
+          "Datum": "2025-11-04"
+        },
+        {
+          "FrageID": 486,
+          "Fragesteller": "Frage eines Neurologen aus Wiesbaden",
+          "Headline": "Therapie im Delir – was ist sicher bei Parkinson?",
+          "Frage": "Delir bei Parkinson‑Patienten: Welche Medikamente sind geeignet, welche zu vermeiden?",
+          "Antwort": "Meiden:   Haloperidol  /hochpotente Neuroleptika (Verschlechterung motorischer Symptome). Geeignet:   Quetiapin   (p.o., niedrig dosiert) oder   Clozapin   (mit Blutbildkontrollen). Immer: Ursache behandeln (Infekt, Schmerz, Harnretention), Reizabschirmung, Tag‑Nacht‑Struktur, Flüssigkeit/Energie sichern.",
+          "Autor": "Dr. med. Jonas Dietz (Neurologie am Main, Frankfurt)",
+          "Datum": "2025-11-08"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Dementia",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 487,
+          "Fragesteller": "Frage einer Neurologin aus Ulm",
+          "Headline": "Therapie‑Deeskalation im Spätstadium – wann absetzen?",
+          "Frage": "Fortgeschrittene Demenz mit Pflegebedürftigkeit. Soll ich Cholinesterasehemmer weiterführen?",
+          "Antwort": "Bei fehlbarem Nutzen, relevanten Nebenwirkungen, Gewichtsverlust oder   Pflegeheim‑Setting   ohne dokumentierten Benefit ist ein   Auslassversuch   gerechtfertigt. Engmaschig auf Verhaltenssymptome achten; bei Verschlechterung ggf. Wiedereinsetzen. Fokus: Symptomkontrolle, Komorbiditäten, Lebensqualität.",
+          "Autor": "Prof. Dr. med. Ines Berger (Universität Tübingen)",
+          "Datum": "2025-09-30"
+        },
+        {
+          "FrageID": 488,
+          "Fragesteller": "Frage eines Neurologen aus Trier",
+          "Headline": "Bildgebung in der Spätphase – wann noch sinnvoll?",
+          "Frage": "Bekannte Alzheimer‑Demenz, nun Sturz und neue Hemiparese. Ist erneute Bildgebung gerechtfertigt?",
+          "Antwort": "Ja, bei   neuen fokalen Defiziten   immer CCT/MRT zum Ausschluss von Subduralhämatom, Schlaganfall, Tumor oder Normaldruckhydrozephalus. Diagnostik orientiert sich an   neuer Symptomatik  , nicht am Demenzstadium.",
+          "Autor": "Dr. med. Karla Neumann (Klinikum Saarbrücken)",
+          "Datum": "2025-03-23"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Essential tremor",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 489,
+          "Fragesteller": "Frage einer Neurologin aus Karlsruhe",
+          "Headline": "Primidon vs. Propranolol – wem gebe ich was?",
+          "Frage": "70-jähriger mit posturalem Tremor beider Hände, RR gut eingestellt. Wann wechsle ich von Propranolol zu Primidon?",
+          "Antwort": "Bei   Kontraindikationen   gegen Betablocker (Asthma, AV‑Block), unzureichender Wirkung oder Nebenwirkungen. Start Primidon   62,5–125 mg zur Nacht  , langsame Titration. Kombination mit niedrig dosiertem Propranolol möglich. Lebensstil: Koffein/Stress reduzieren, Gewichtsoptimierung, beidhandige Hilfsmittel.",
+          "Autor": "Prof. Dr. med. Martin Sander (Universitätsklinikum Würzburg)",
+          "Datum": "2025-05-25"
+        },
+        {
+          "FrageID": 490,
+          "Fragesteller": "Frage eines Neurologen aus Regensburg",
+          "Headline": "Wann DBS oder MRgFUS?",
+          "Frage": "Bei schwerem therapieresistentem Tremor: Ab welchem Punkt sind tiefe Hirnstimulation (DBS) oder fokussierter Ultraschall (MRgFUS) sinnvoll?",
+          "Antwort": "Indiziert bei   deutlicher Alltagsbeeinträchtigung   trotz optimaler Medikation.   DBS   (Ncl. ventralis intermedius) bilateral möglich, justierbar, aber implantatabhängig.   MRgFUS   einseitig, nichtinvasiv, nicht justierbar. Entscheidung individualisiert nach Alter, Komorbidität, Beidseitigkeit der Beschwerden und Patientenpräferenz im spezialisierten Zentrum.",
+          "Autor": "Dr. med. Amelie Petzold (Bewegungsstörungszentrum Berlin)",
+          "Datum": "2025-11-28"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Guillain-Barré syndrome",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 491,
+          "Fragesteller": "Frage einer Neurologin aus Potsdam",
+          "Headline": "IVIG oder Plasmapherese – was wähle ich wann?",
+          "Frage": "Akutes GBS mit Gehunfähigkeit nach 7 Tagen. Welche spezifische Therapie ist zu bevorzugen?",
+          "Antwort": "  IVIG (0,4 g/kg/Tag × 5)   und   Plasmapherese (4–5 Zyklen)   sind   gleichwertig  . Wahl nach Verfügbarkeit, Nebenwirkungsprofil, Vaskulärem Zugang, Hyperviskositätsrisiko. Nicht kombinieren. Engmaschiges   Atemmonitoring   (VC <15 ml/kg = Alarm), autonome Instabilität im Blick behalten.",
+          "Autor": "PD Dr. med. Viola Schenk (Universitätsklinikum Leipzig)",
+          "Datum": "2025-12-31"
+        },
+        {
+          "FrageID": 492,
+          "Fragesteller": "Frage eines Neurologen aus Kassel",
+          "Headline": "Beatmungsindikation und Überwachung",
+          "Frage": "Welche Parameter veranlassen zur frühzeitigen Intubation/ITS‑Verlegung?",
+          "Antwort": "Red Flags:   VC <15 ml/kg  , rascher Progress, Bulbärsymptome, Hypoxie/Hyperkapnie, autonome Instabilität, Unfähigkeit, 20 ml Wasser zu schlucken. Regelmäßig VC/SNIP, Pulsoxymetrie, EKG. Frühzeitige ITS reduziert Komplikationen.",
+          "Autor": "Dr. med. Daniel Hofer (Klinikum Fulda)",
+          "Datum": "2025-05-25"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Hydrocephalus",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 493,
+          "Fragesteller": "Frage einer Neurologin aus Mainz",
+          "Headline": "Normaldruckhydrozephalus – sichere Diagnostik im Alltag",
+          "Frage": "Gangstörung, kognitive Verlangsamung, Harninkontinenz. CT zeigt erweiterte Ventrikel. Wie sichere ich die Diagnose und wer profitiert vom Shunt?",
+          "Antwort": "Klinische   Trias   +   Bildgebung   (Ventrikulomegalie, Evans‑Index >0,3, DESH‑Zeichen) +   Liquorablass‑Test   (30–50 ml, Beurteilung Gang/Kognition). Positiver Test sagt gutes   Shunt‑Ansprechen   voraus. Frühe neurochirurgische Vorstellung; Komorbiditäten und OP‑Risiko abwägen.",
+          "Autor": "Prof. Dr. med. Ralf Dieterle (Universitätsklinikum Heidelberg)",
+          "Datum": "2025-11-18"
+        },
+        {
+          "FrageID": 494,
+          "Fragesteller": "Frage eines Neurologen aus Rostock",
+          "Headline": "Shunt‑Management – typische Komplikationen",
+          "Frage": "Welche Komplikationen nach VP‑Shunt muss ich als niedergelassener Neurologe im Blick behalten?",
+          "Antwort": "Früh: Infektion, subdurale Hämatome (Überdrainage), Fehlfunktion/Okklusion. Spät: Shunt‑Insuffizienz, Katheterdislokation. Warnzeichen: Kopfschmerz, Ganganstieg, Vigilanzminderung. Bei Verdacht:   CCT   und   Shunt‑Druckprüfung  /Neurochirurgie kontaktieren.",
+          "Autor": "Dr. med. Silke Urban (Klinik Schwerin)",
+          "Datum": "2025-10-11"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Ischemic stroke",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 495,
+          "Fragesteller": "Frage einer Neurologin aus München",
+          "Headline": "Thrombolyse jenseits 4,5 h – geht das?",
+          "Frage": "Patient innerhalb von 7 Stunden, unklare Onset‑Time. Kann ich noch lysieren?",
+          "Antwort": "Ja, bei   bildgebungsbasierter Selektion  : DWI/FLAIR‑Mismatch (MRT) oder Perfusions‑CT mit kleinem Kern und relevantem Penumbra‑Mismtach. Immer Stroke‑Unit‑Prozess, Kontraindikationen prüfen, Nutzen‑Risiko abwägen.",
+          "Autor": "PD Dr. med. Anna Seidel (LMU Klinikum München)",
+          "Datum": "2025-02-08"
+        },
+        {
+          "FrageID": 496,
+          "Fragesteller": "Frage eines Neurologen aus Dortmund",
+          "Headline": "Asymptomatische Karotisstenose – operieren oder abwarten?",
+          "Frage": "70 % Karotisstenose rechts, asymptomatisch. Soll ich zur Endarteriektomie raten?",
+          "Antwort": "Bei   >70 %   Stenose   und   niedrigem OP‑Risiko kann CEA erwogen werden; ansonsten   optimale Sekundärprävention   (ASS/Clopidogrel je nach Situation, Statin, RR‑Kontrolle, Lebensstil). Entscheidung interdisziplinär im Gefäßboard; moderne Best‑Medical‑Therapy hat Risiko deutlich gesenkt.",
+          "Autor": "Prof. Dr. med. Nils Kramer (Universitätsklinikum Essen)",
+          "Datum": "2025-07-18"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Migraine",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 497,
+          "Fragesteller": "Frage einer Neurologin aus Hamburg",
+          "Headline": "CGRP‑Antagonisten in der Praxis – akut und prophylaktisch",
+          "Frage": "Sind CGRP‑Antagonisten auch als Akuttherapie geeignet und wie kombiniere ich sie mit Prophylaxen?",
+          "Antwort": "Ja.   Rimegepant   ist für   Akut   und   Prophylaxe   zugelassen;   Atogepant   für Prophylaxe. Kombination mit klassischen Prophylaxen (z. B. Topiramat, Betablocker) möglich. Triptane bei kardiovaskulären Risiken nur nach Abklärung; Gepante sind   nicht vasokonstriktiv  . Attacken‑ und Medikamentengebrauch dokumentieren (MOH‑Prävention).",
+          "Autor": "Dr. med. Carolin Weiß (Kopfschmerzzentrum Eppendorf)",
+          "Datum": "2025-10-27"
+        },
+        {
+          "FrageID": 498,
+          "Fragesteller": "Frage eines Neurologen aus Freiburg",
+          "Headline": "Menstruelle Migräne – was ist der beste Plan?",
+          "Frage": "Welche Strategien empfehlen Sie bei regelmäßigen menstruierten Migräneattacken?",
+          "Antwort": "Optionen:   Kurzzeit‑Prophylaxe   (Naproxen 500 mg 2×/Tag oder Frovatriptan/Naratriptan um die Periode), kontinuierliche   CGRP‑mAbs  /Gepante bei hoher Last, Triptan‑Akuttherapie + Antiemetikum. Lebensstil: Schlaf, Ausdauertraining, Triggerprotokoll. Hormonelle Strategien individuell mit Gynäkologie abstimmen.",
+          "Autor": "Prof. Dr. med. Lea Stein (Universitätsklinikum Ulm)",
+          "Datum": "2025-10-11"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Mild cognitive impairment",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 499,
+          "Fragesteller": "Frage einer Neurologin aus Mannheim",
+          "Headline": "MCI – Progressionsrisiko realistisch einschätzen",
+          "Frage": "Wie hoch ist das Risiko, innerhalb eines Jahres in eine Demenz zu konvertieren, und welche Marker helfen mir?",
+          "Antwort": "Durchschnittlich   10–15 %/Jahr  , höher bei   positiven Alzheimer‑Biomarkern   (Amyloid/Tau), Hippokampusatrophie, schlechterem MoCA, APOE‑ε4, vaskulären Risiken. Management:   Risikofaktoren   behandeln, Aktivitäts‑/Ernährungsprogramme, kognitive Stimulation, Verlaufskontrollen alle 6–12 Monate.",
+          "Autor": "Dr. med. Pia Sauer (Gedächtnisambulanz Heidelberg)",
+          "Datum": "2025-09-27"
+        },
+        {
+          "FrageID": 500,
+          "Fragesteller": "Frage eines Neurologen aus Bielefeld",
+          "Headline": "Medikamente bei MCI – sinnvoll oder nicht?",
+          "Frage": "Soll ich Cholinesterasehemmer bei MCI einsetzen?",
+          "Antwort": "Nein,   keine Evidenz   für Nutzen bei isoliertem MCI ohne Demenz. Fokus auf   Lebensstil‑Interventionen  , Depressionsscreening, Schlaf, Gefäßrisiken, ggf. Studienangebote.",
+          "Autor": "PD Dr. med. Robert Lang (Universitätsklinikum Münster)",
+          "Datum": "2025-08-18"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Multiple sclerosis",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 473,
+          "Fragesteller": "Frage einer Neurologin aus München",
+          "Headline": "Fatigue bei MS – Wie diagnostiziere und behandle ich richtig?",
+          "Frage": "Eine 34-jährige MS-Patientin klagt über zunehmende Fatigue, die nicht proportional zur klinischen Aktivität oder zum MRT-Befund steht. Wie differenziere ich die MS-bedingte Fatigue von anderen Ursachen, und was sind erste sinnvolle therapeutische Schritte?",
+          "Antwort": "Fatigue ist eines der häufigsten, aber auch unspezifischsten Symptome bei MS. Die Differenzierung und Behandlung sollten folgende Schritte beinhalten:\n\n1.   Ausschluss anderer Ursachen:   Anämie, Schilddrüsendysfunktion, Schlafapnoe, Depression sowie Nebenwirkungen von MS‑Medikamenten (Interferone, Baclofen) ausschließen.\n2.   Erfassung:   Validierte Fragebögen wie   FSMC   oder   MFIS   für Basiswert und Verlauf nutzen.\n3.   Therapie:  \n   •   Nicht‑pharmakologisch:   Energie‑Management (Pacing), moderates Ausdauertraining, Ergotherapie, Schlafhygiene.\n   •   Pharmakologisch (Off‑Label):   Amantadin 100–200 mg/Tag; in Einzelfällen Modafinil oder Fampridin – individuell und zeitlich befristet evaluieren.",
+          "Autor": "Prof. Dr. med. Tjalf Ziemssen (Universitätsklinikum Dresden)",
+          "Datum": "2025-11-22"
+        },
+        {
+          "FrageID": 474,
+          "Fragesteller": "Frage eines Neurologen aus Hamburg",
+          "Headline": "Therapiewechsel bei MS – Wann ist der richtige Zeitpunkt?",
+          "Frage": "Eine 41-jährige Patientin mit schubförmig‑remittierender MS berichtet über zwei neue Läsionen im MRT trotz Therapie mit Dimethylfumarat. Klinisch bestehen leichte Sensibilitätsstörungen. Soll ich die Therapie wechseln, und wenn ja, welche Optionen sind sinnvoll?",
+          "Antwort": "Ein   Therapiewechsel   ist bei   Krankheitsaktivität   trotz adäquater Therapie indiziert (Schübe, neue/vergrößerte MRT‑Läsionen, Progress). Eskalation auf höher wirksame Präparate wie   Ocrelizumab  ,   Natalizumab   oder   Fingolimod   erwägen. Vor Wechsel:   JC‑Virus‑Status  , Impfstatus, Labor, Kontraindikationen prüfen; gemeinsam mit der Patientin Nutzen‑Risiko abwägen.",
+          "Autor": "PD Dr. med. Kathrin Müller (Charité – Universitätsmedizin Berlin)",
+          "Datum": "2025-07-31"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Myasthenia gravis",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 501,
+          "Fragesteller": "Frage einer Neurologin aus Saarbrücken",
+          "Headline": "Thymektomie – bei wem ja, bei wem nein?",
+          "Frage": "Okuläre Myasthenie, AChR‑AK positiv, CT‑Thorax ohne Thymom. Ist eine Thymektomie sinnvoll?",
+          "Antwort": "Ohne   Thymom   ist die Evidenz für Thymektomie v. a. bei   generalisierter AChR‑positiver MG   gegeben (Besserung von Exazerbationen/Medikamentenbedarf). Bei rein   okulärer   Form keine klare Indikation. Therapie:   Pyridostigmin  , bei Bedarf   Steroid  /steroid‑sparende Immunsuppression (Azathioprin, Mycophenolat) individuell.",
+          "Autor": "Prof. Dr. med. Ute Kramer (Universitätsmedizin Essen)",
+          "Datum": "2025-08-28"
+        },
+        {
+          "FrageID": 502,
+          "Fragesteller": "Frage eines Neurologen aus Oldenburg",
+          "Headline": "Myasthene Krise – Akutmanagement",
+          "Frage": "Welche Schritte sind im niedergelassenen Setting einzuleiten?",
+          "Antwort": "Warnzeichen: Atemnot, Dysphagie, rasche Schwächeprogression. Sofort   Notfallüberweisung/ITS  . Akut:   IVIG   (2 g/kg über 2–5 Tage) oder   Plasmapherese  , Auslöser behandeln (Infekt, Medikamente), anticholinerge/neuromuskulär blockierende Substanzen meiden. Post‑Krise: Steroidoptimierung, Rezidivprävention, Impfstatus prüfen.",
+          "Autor": "Dr. med. Helge Martens (Klinikum Nordwest, Frankfurt)",
+          "Datum": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Parkinson's disease",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 503,
+          "Fragesteller": "Frage einer Neurologin aus Lübeck",
+          "Headline": "Therapiestart – muss es gleich L‑Dopa sein?",
+          "Frage": "Frühparkinson mit beeinträchtigender Rigor‑Bradykinese. Ist ein Aufschub von L‑Dopa sinnvoll?",
+          "Antwort": "Beginne   L‑Dopa  , sobald   Alltag   relevant beeinträchtigt ist – ein Aufschub bringt   keinen   Langzeitvorteil. Bei milden Symptomen können   MAO‑B‑Hemmer   als Monotherapie versucht werden. Therapie regelmäßig auf Wirkung/Nebenwirkungen (Dyskinesien, Halluzinationen) prüfen.",
+          "Autor": "Prof. Dr. med. Nina Wolff (Universitätsklinikum Schleswig‑Holstein)",
+          "Datum": "2025-12-03"
+        },
+        {
+          "FrageID": 504,
+          "Fragesteller": "Frage eines Neurologen aus Erfurt",
+          "Headline": "Motorfluktuationen – praktisches Management",
+          "Frage": "Zunehmende Off‑Zeiten unter L‑Dopa. Wie optimiere ich die Therapie?",
+          "Antwort": "Strategien:   Dosisfraktionierung   von L‑Dopa, Addition   COMT‑  /  MAO‑B‑Hemmer  ,   Dopaminagonisten  , On‑Demand‑Optionen (Inhalativ‑L‑Dopa, Apomorphin‑Pen). Bei therapierefraktären Fluktuationen:   DBS   (STN/GPi) nach Zentrumsevaluation. Nichtmotorische Symptome systematisch adressieren.",
+          "Autor": "PD Dr. med. Jakob Reichel (Bewegungsstörungszentrum Jena)",
+          "Datum": "2025-10-21"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Restless legs syndrome",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 505,
+          "Fragesteller": "Frage einer Neurologin aus Dresden",
+          "Headline": "Eisen auffüllen – wann oral, wann i.v.?",
+          "Frage": "Ferritin 50 µg/l, typisches RLS. Reicht orale Substitution?",
+          "Antwort": "Ziel‑Ferritin   >75–100 µg/l  . Start   oral   (z. B. zweiwertiges Eisen), Kontrolle nach 8–12 Wochen. Bei Unverträglichkeit, Malabsorption oder Therapieversagen:   i.v. Eisen  . Zusätzlich Trigger (Koffein, Alkohol, Antihistaminika) reduzieren.",
+          "Autor": "Dr. med. Janina Roth (Uniklinikum Magdeburg)",
+          "Datum": "2025-08-26"
+        },
+        {
+          "FrageID": 506,
+          "Fragesteller": "Frage eines Neurologen aus Wuppertal",
+          "Headline": "Therapierefraktäres RLS – was bleibt?",
+          "Frage": "Dopaminerge Therapie und Gabapentinoide ausgeschöpft. Wann kommen Opioide in Betracht?",
+          "Antwort": "Bei   schwerem, refraktärem   RLS unter engmaschiger Kontrolle   niedrig dosierte Opioide   (z. B. Oxycodon/Naloxon) erwägen. Vorher: Augmentation ausschließen, Eisen normalisieren, Komorbiditäten (CKD, Polyneuropathie) behandeln.",
+          "Autor": "Prof. Dr. med. Thomas Lüders (Universitätsklinikum Düsseldorf)",
+          "Datum": "2025-02-22"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Spinal muscular atrophy",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 507,
+          "Fragesteller": "Frage einer Neurologin aus Passau",
+          "Headline": "Gentherapie – Timing und Auswahl",
+          "Frage": "SMA Typ 1/2 im Kindesalter. Wann ist der optimale Zeitpunkt für Onasemnogen abeparvovec und wie zu anderen Optionen?",
+          "Antwort": "Beste Ergebnisse   präsymptomatisch   bzw. früh‑symptomatisch. Entscheidung zwischen   Onasemnogen  ,   Nusinersen   oder   Risdiplam   individuell nach Alter, Genetik (SMN2‑Kopien), Organstatus. Impfprophylaxe,   Steroid‑Begleittherapie   und Lebermonitoring bei Gentherapie beachten.",
+          "Autor": "Dr. med. Miriam Keller (Zentrum für neuromuskuläre Erkrankungen München)",
+          "Datum": "2025-09-30"
+        },
+        {
+          "FrageID": 508,
+          "Fragesteller": "Frage eines Neurologen aus Koblenz",
+          "Headline": "Kombinationstherapien – gibt es Evidenz?",
+          "Frage": "Ist die Kombination von Nusinersen und Onasemnogen sinnvoll?",
+          "Antwort": "Aktuell   keine robuste Evidenz   für Überlegenheit von Kombinationen; erhöhte Kosten und kumulative Risiken. Kombination nur im   Studienkontext   bzw. nach Einzelfallentscheidung in Zentren. Fokus auf konsequentes   Physio/Ortho‑Management   und Komplikationsprävention.",
+          "Autor": "Prof. Dr. med. Sabine Rieger (Universitätsklinikum Köln)",
+          "Datum": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "Erkrankung": "Tension-type headache",
+      "FragenUndAntworten": [
+        {
+          "FrageID": 509,
+          "Fragesteller": "Frage einer Neurologin aus Zürich",
+          "Headline": "Triptane beim Spannungskopfschmerz?",
+          "Frage": "Sind Triptane bei chronischem Spannungskopfschmerz wirksam?",
+          "Antwort": "Nein.   Triptane   wirken bei Migräne/Cluster, nicht bei Spannungskopfschmerz. Therapie:   Ausdauertraining  , Stressbewältigung,   Biofeedback  , Physiotherapie; medikamentös Amitriptylin (Abend), alternativ Mirtazapin/Venlafaxin. MOH vermeiden.",
+          "Autor": "Dr. med. Selina Graf (Schmerzzentrum St. Gallen)",
+          "Datum": "2025-11-20"
+        },
+        {
+          "FrageID": 510,
+          "Fragesteller": "Frage eines Neurologen aus Innsbruck",
+          "Headline": "Was hilft nachhaltig? – Nichtmedikamentöse Strategien",
+          "Frage": "Welche Interventionen haben die beste Evidenz bei chronischem Verlauf?",
+          "Antwort": "  Regelmäßige Bewegung  , Entspannungsverfahren (PMR),   kognitive Verhaltenstherapie  , Schlafoptimierung. Kurzzeit‑NSAR für Akutphasen, Prophylaxe mit   Amitriptylin   über 8–12 Wochen antesten, danach Nutzen prüfen.",
+          "Autor": "PD Dr. med. Markus Egger (Universitätsklinik Innsbruck)",
+          "Datum": "2025-07-04"
+        }
+      ]
+    }
+  ]
+}
