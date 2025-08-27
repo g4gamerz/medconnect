@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 /// Config
 dotenv.config();
-const dbName = process.env.DB_NAME || 'default.sqlite';
+const dbName = path.join(process.env.VERCEL ? '/tmp' : '.', 'db.sqlite');
 
 /// Singleton DB
 let db;
