@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Neurological Study",
+    "tags": ["Neurologie"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet."
+  },
+  {
+    "id": 1,
+    "name": "Cognitive Research",
+    "tags": ["Psychologie", "Studie"],
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 2,
+    "name": "Impact of Sleep Deprivation on Memory Consolidation",
+    "tags": ["Neuroscience", "Sleep", "Cognition"],
+    "description": "This paper explores how REM sleep loss affects long-term memory formation and hippocampal activity in adult subjects."
+  },
+  {
+    "id": 4,
+    "name": "The Gut-Brain Axis in Depression: A Microbiome Perspective",
+    "tags": ["Psychiatrie", "Mikrobiom", "Depression"],
+    "description": "Findings suggest that intestinal flora imbalance may contribute to depressive symptoms via vagus nerve modulation."
+  },
+  {
+    "id": 5,
+    "name": "Language Acquisition in Multilingual Children",
+    "tags": ["Sprachentwicklung", "Pädagogik", "Kognitive Psychologie"],
+    "description": "A longitudinal study tracking syntax and vocabulary acquisition in children exposed to three or more languages."
+  },
+  {
+    "id": 6,
+    "name": "Effects of Chronic Stress on Prefrontal Cortex Function",
+    "tags": ["Neurobiologie", "Stress", "fMRT"],
+    "description": "Using fMRI, we observed significant reductions in PFC activation during decision-making tasks in chronically stressed adults."
+  }
+]
