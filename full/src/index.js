@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import Feed from './Views/Feed';
-import TagSelection from './Views/TagSelection';
+import Feed from './Views/Feed.js';
+import TagSelection from './Views/TagSelection.js';
 import './index.css';
 
 /// Main entry point for the app

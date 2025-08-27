@@ -121,10 +121,10 @@ export async function initDB() {
     );
   `);
 
-  await seedCategory(db, 'PAPER', './demo-data/pubs.json');
-  await seedCategory(db, 'GUIDELINE', './demo-data/guidelines.json');
-  await seedCategory(db, 'DRUG', './demo-data/drugs.json');
-  await seedKonsilium(db, './demo-data/Konsilium.json');
+  await seedCategory(db, 'PAPER', './api/demo-data/pubs.json');
+  await seedCategory(db, 'GUIDELINE', './api/demo-data/guidelines.json');
+  await seedCategory(db, 'DRUG', './api/demo-data/drugs.json');
+  await seedKonsilium(db, './api/demo-data/Konsilium.json');
 }
 
 /// Fetch documents with advanced filtering
