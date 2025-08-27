@@ -1,8 +1,5 @@
-// The base URL will be set by an environment variable for local dev,
-// but will be a relative path on the hosting platform (Vercel).
-const API_URL = process.env.NODE_ENV === 'production'
-  ? ''
-  : process.env.REACT_APP_API_URL;
+// The base URL for the API, provided by the Vercel environment variable.
+const API_URL = process.env.REACT_APP_API_URL;
 
 /// Api request to fetch documents with multiple filters
 export async function fetchItems(filters) {
@@ -11,12 +8,11 @@ export async function fetchItems(filters) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(filters),
   });
-  // Add error handling to see what's happening
   if (!response.ok) {
     console.error("API fetch failed:", response.status, response.statusText);
     const text = await response.text();
     console.error("Response body:", text);
-    return { papers: [], guidelines: [], drugs: [], konsilium: [] }; // Return empty data on error
+    return { papers: [], guidelines: [], drugs: [], konsilium: [] };
   }
   return await response.json();
 }
@@ -34,7 +30,7 @@ export async function fetchTags() {
 /// Api request to fetch all available Publication Types
 export async function fetchPublicationTypes() {
   const response = await fetch(`${API_URL}/api/fetchPublicationTypes`);
-    if (!response.ok) {
+  if (!response.ok) {
     console.error("API fetch failed for pub types:", response.status, response.statusText);
     return [];
   }
