@@ -10,12 +10,8 @@ const dbName = path.join(process.env.VERCEL ? '/tmp' : '.', 'db.sqlite');
 
 /// Singleton DB
 let db;
-export async function getDb() {
-  if (!db) db = await open({ filename: dbName, driver: sqlite3.Database });
-  return db;
-}
 
-/// Seeds Konsilium.json
+
 async function seedKonsilium(db, filePath) {
   try {
     const content = await fs.readFile(filePath, 'utf-8');
@@ -39,7 +35,6 @@ async function seedKonsilium(db, filePath) {
   }
 }
 
-/// Seeds Papers, Drugs, Guidelines etc.
 async function seedCategory(db, category, filePath) {
   try {
     const content = await fs.readFile(filePath, 'utf-8');
@@ -62,16 +57,13 @@ async function seedCategory(db, category, filePath) {
         description = item.Abstract;
         tags = item.Disease ? [item.Disease] : [];
         
-        // --- THIS LOGIC IS NOW UPDATED ---
         if (item.PublicationTypes) {
-          // Default to 'Original Article', but change to 'Review' if the word is found.
           let simplifiedType = 'Original Article';
           if (item.PublicationTypes.toLowerCase().includes('review')) {
             simplifiedType = 'Review';
           }
           await db.run('INSERT OR IGNORE INTO publication_types (document_id, publication_type) VALUES (?, ?)', [id, simplifiedType]);
         }
-        // --- END OF UPDATE ---
 
       } else if (category === 'GUIDELINE') {
         id = `GL-${guidelineIdCounter++}`; 
@@ -97,36 +89,58 @@ async function seedCategory(db, category, filePath) {
   }
 }
 
-/// Init db (create and populate if needed)
-export async function initDB() {
-  const db = await getDb();
-  await db.exec(`
-    CREATE TABLE IF NOT EXISTS documents (
-      id TEXT PRIMARY KEY,
-      name TEXT NOT NULL,
-      description TEXT NOT NULL,
-      category TEXT NOT NULL CHECK(category IN ('PAPER', 'GUIDELINE', 'DRUG', 'KONSILIUM')),
-      full_data TEXT NOT NULL
-    );
-    CREATE TABLE IF NOT EXISTS tags (
-      document_id TEXT NOT NULL,
-      tag TEXT NOT NULL,
-      FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE,
-      PRIMARY KEY (document_id, tag)
-    );
-    CREATE TABLE IF NOT EXISTS publication_types (
-      document_id TEXT NOT NULL,
-      publication_type TEXT NOT NULL,
-      FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE,
-      PRIMARY KEY (document_id, publication_type)
-    );
-  `);
-
-  await seedCategory(db, 'PAPER', './api/demo-data/pubs.json');
-  await seedCategory(db, 'GUIDELINE', './api/demo-data/guidelines.json');
-  await seedCategory(db, 'DRUG', './api/demo-data/drugs.json');
-  await seedKonsilium(db, './api/demo-data/Konsilium.json');
+async function initializeDatabase(dbInstance) {
+    console.log('Database not found or empty. Initializing and seeding...');
+    await dbInstance.exec(`
+      CREATE TABLE IF NOT EXISTS documents (
+        id TEXT PRIMARY KEY,
+        name TEXT NOT NULL,
+        description TEXT NOT NULL,
+        category TEXT NOT NULL CHECK(category IN ('PAPER', 'GUIDELINE', 'DRUG', 'KONSILIUM')),
+        full_data TEXT NOT NULL
+      );
+      CREATE TABLE IF NOT EXISTS tags (
+        document_id TEXT NOT NULL,
+        tag TEXT NOT NULL,
+        FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE,
+        PRIMARY KEY (document_id, tag)
+      );
+      CREATE TABLE IF NOT EXISTS publication_types (
+        document_id TEXT NOT NULL,
+        publication_type TEXT NOT NULL,
+        FOREIGN KEY (document_id) REFERENCES documents(id) ON DELETE CASCADE,
+        PRIMARY KEY (document_id, publication_type)
+      );
+    `);
+  
+    // Seed data from local files
+    await seedCategory(dbInstance, 'PAPER', './api/demo-data/pubs.json');
+    await seedCategory(dbInstance, 'GUIDELINE', './api/demo-data/guidelines.json');
+    await seedCategory(dbInstance, 'DRUG', './api/demo-data/drugs.json');
+    await seedKonsilium(dbInstance, './api/demo-data/Konsilium.json');
+    console.log('Database initialization complete.');
 }
+
+
+// --- UPDATED getDb FUNCTION ---
+
+export async function getDb() {
+  if (db) return db; // Return cached instance
+
+  // Open a connection
+  const newDb = await open({ filename: dbName, driver: sqlite3.Database });
+  
+  // Check if the database is initialized
+  const tableCheck = await newDb.get("SELECT name FROM sqlite_master WHERE type='table' AND name='documents'");
+
+  if (!tableCheck) {
+    await initializeDatabase(newDb);
+  }
+
+  db = newDb; // Cache the instance
+  return db;
+}
+
 
 /// Fetch documents with advanced filtering
 export async function fetchItemsFromDb({ tags = [], pubTypes = [] }) {
@@ -161,7 +175,7 @@ export async function fetchItemsFromDb({ tags = [], pubTypes = [] }) {
     const fullData = JSON.parse(doc.full_data);
     const itemTags = JSON.parse(doc.tags || '[]');
     const name = fullData.Title || fullData.Headline || fullData.Produktname || fullData.Indication || fullData.name;
-    const description = fullData.description || fullData.Abstract || fullData.Antwort || fullData.Zusammenfassung;
+    const description = fullData.description || fullData.Abstract || fullA.Antwort || fullA.Zusammenfassung;
     delete fullData.category;
     return { ...fullData, id: doc.id, name, description, tags: itemTags, category: doc.category };
   });
