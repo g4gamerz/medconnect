@@ -1,45 +1,45 @@
+import { parse, format, isValid } from 'date-fns';
+
 /**
- * A safe, cross-browser date formatter that handles multiple formats
- * and falls back to extracting the year from a string.
- * @param {string} dateString The date string to format (e.g., "2025-08-28", "28.08.2025", or "2024").
- * @returns {string} The formatted date ('DD.MM.YYYY'), the extracted year ('YYYY'), or 'N/A'.
+ * A highly reliable, cross-browser date formatter using date-fns.
+ * @param {string} dateString The date string to format.
+ * @returns {string} The formatted date ('dd.MM.yyyy'), the year ('yyyy'), or 'N/A'.
  */
 export const formatDateSafe = (dateString) => {
-  if (!dateString) return 'N/A';
-
-  // Ensure the input is a string to use .match()
-  const dateStr = String(dateString);
-
-  // --- NEW CROSS-BROWSER LOGIC ---
-  // Check for German/European date format (DD.MM.YYYY)
-  const germanDateMatch = dateStr.match(/^(\d{2})\.(\d{2})\.(\d{4})$/);
-  let parsableDateString = dateStr;
-
-  if (germanDateMatch) {
-    const day = germanDateMatch[1];
-    const month = germanDateMatch[2];
-    const year = germanDateMatch[3];
-    // Rearrange to the universally supported YYYY-MM-DD format
-    parsableDateString = `${year}-${month}-${day}`;
-  }
-  // --- END OF NEW LOGIC ---
-
-  // Now, use the original or the rearranged string to create the date
-  const date = new Date(parsableDateString);
-
-  // Check if the date is valid.
-  if (!isNaN(date.getTime())) {
-    // If valid, return the full formatted date.
-    return date.toLocaleDateString('de-DE');
+  if (!dateString) {
+    return 'N/A';
   }
 
-  // If invalid, fall back to finding a four-digit year in the original string.
+  // Trim whitespace and ensure it's a string
+  const dateStr = String(dateString).trim();
+
+  // Define the date formats your data might be in, in order of preference.
+  const formatsToTry = [
+    'dd.MM.yyyy', // e.g., "28.08.2025"
+    'yyyy-MM-dd', // e.g., "2025-08-28"
+    'yyyy',       // e.g., "2024"
+  ];
+
+  // Loop through the formats and try to parse the date
+  for (const fmt of formatsToTry) {
+    const parsedDate = parse(dateStr, fmt, new Date());
+
+    // If the parsed date is valid for the given format
+    if (isValid(parsedDate)) {
+      // If the format was just the year, return the original year string
+      if (fmt === 'yyyy') {
+        return dateStr;
+      }
+      // For all other valid formats, format it consistently
+      return format(parsedDate, 'dd.MM.yyyy');
+    }
+  }
+
+  // As a last resort, if no formats match, try to find any 4-digit number
   const yearMatch = dateStr.match(/\d{4}/);
   if (yearMatch) {
-    // If a year is found, return it.
     return yearMatch[0];
   }
 
-  // If all else fails, return 'N/A'.
-  return 'N/A';
+  return 'N/A'; // Return 'N/A' if nothing works
 };
