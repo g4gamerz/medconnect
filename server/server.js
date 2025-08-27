@@ -7,7 +7,7 @@ import {
   fetchItemsFromDb, 
   fetchTagsFromDb, 
   fetchPublicationTypesFromDb 
-} from './api/db/db.js';
+} from './db.js';
 
 dotenv.config();
 
