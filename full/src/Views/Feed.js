@@ -11,36 +11,34 @@ import { fetchItems } from '../Api.js';
 import DocumentDetail from './DocumentDetail.js';
 import Tags from './Tags.js'
 
-// Helper to format dates to DD.MM.YYYY
-const formatDate = (dateString) => {
-  if (!dateString) return 'N/A';
-  return new Date(dateString).toLocaleDateString('de-DE');
-};
+import { formatDateSafe } from '../utils/formatters.js'; // Import the new function
 
-/// An elevated box in the main feed
+// The old formatDate helper is no longer needed and can be deleted.
+
 function Item({ item, setDetailedDocument }) {
   const { name, tags, description, category } = item;
   const itemDate = item.Datum || item.PublicationDate;
 
   return (
-    <Paper onClick={()=>setDetailedDocument(item)} elevation={3} sx={{ p: 3, borderRadius: 2, cursor: 'pointer'}}>
+    <Paper onClick={() => setDetailedDocument(item)} elevation={3} sx={{ p: 3, borderRadius: 2, cursor: 'pointer' }}>
       <Stack spacing={1.5}>
         <Typography variant="h6">{name}</Typography>
         
         {category === 'GUIDELINE' ? (
           <Box>
-            <Tags tags={tags} /> {/* Render tags without a date */}
+            <Tags tags={tags} />
             <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', mt: 1 }}>
-                <Typography variant="caption" color="text.secondary">
-                    <strong>Start Date:</strong> {formatDate(item.Stand)}
-                </Typography>
-                <Typography variant="caption" color="text.secondary">
-                    <strong>Expiry Date:</strong> {formatDate(item.Gueltigkeit)}
-                </Typography>
+              <Typography variant="caption" color="text.secondary">
+                <strong>Start Date:</strong> {formatDateSafe(item.Stand)}
+              </Typography>
+              <Typography variant="caption" color="text.secondary">
+                <strong>Expiry Date:</strong> {formatDateSafe(item.Gueltigkeit)}
+              </Typography>
             </Box>
           </Box>
         ) : (
-          <Tags tags={tags} date={itemDate} /> // Original behavior for other types
+          // The Tags component will now handle the safe formatting
+          <Tags tags={tags} date={itemDate} />
         )}
 
         <Typography variant="body2" color="text.secondary" sx={{ maxHeight: 100, overflow: "hidden" }}>
