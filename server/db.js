@@ -144,9 +144,15 @@ export async function fetchItemsFromDb({ tags = [], pubTypes = [] }) {
     whereClauses.push(`d.id IN (SELECT document_id FROM tags WHERE tag IN (${placeholders}))`);
     params.push(...tags);
   }
+
   if (pubTypes.length > 0) {
     const placeholders = pubTypes.map(() => '?').join(',');
-    whereClauses.push(`d.id IN (SELECT document_id FROM publication_types WHERE publication_type IN (${placeholders}))`);
+    // --- THIS IS THE UPDATED LOGIC ---
+    // This new clause ensures that an item is included if:
+    // 1. Its category is NOT 'PAPER' (so it ignores the pubType filter).
+    // OR
+    // 2. Its category IS 'PAPER' AND it matches the selected publication types.
+    whereClauses.push(`(d.category != 'PAPER' OR d.id IN (SELECT document_id FROM publication_types WHERE publication_type IN (${placeholders})))`);
     params.push(...pubTypes);
   }
 
