@@ -8,8 +8,8 @@ import Tab from '@mui/material/Tab';
 import IconButton from '@mui/material/IconButton';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { fetchItems } from '../Api.js';
-import DocumentDetail from './DocumentDetail';
-import Tags from './Tags'
+import DocumentDetail from './DocumentDetail.js';
+import Tags from './Tags.js'
 
 // Helper to format dates to DD.MM.YYYY
 const formatDate = (dateString) => {

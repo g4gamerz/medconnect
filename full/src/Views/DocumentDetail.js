@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from '@mui/material/Link';
-import Tags from './Tags';
+import Tags from './Tags.js';
 
 // Helper function to make property keys more readable
 const formatKey = (key) => {
