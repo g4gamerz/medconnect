@@ -50,14 +50,20 @@ function Item({ item, setDetailedDocument }) {
 }
 
 /// Tab bar at the top
-function DocumentSelector({tabs, selectedTab, setSelectedTab}) {
-  return <>
-    <Tabs value={selectedTab} onChange={(_,newValue)=>setSelectedTab(newValue)} sx={{ flexGrow: 1 }}>
-      {tabs.map((tab, index) =><Tab key={index} label={tab.label}/>)}
+function DocumentSelector({ tabs, selectedTab, setSelectedTab }) {
+  return (
+    <Tabs
+      value={selectedTab}
+      onChange={(_, newValue) => setSelectedTab(newValue)}
+      variant="scrollable" // This is the key change to allow scrolling
+      scrollButtons="auto" // Shows left/right arrows on desktop if needed
+      allowScrollButtonsMobile // Hides the arrows on mobile to rely on swipe
+      sx={{ flexGrow: 1 }}
+    >
+      {tabs.map((tab, index) => <Tab key={index} label={tab.label} />)}
     </Tabs>
-  </>
+  );
 }
-
 /// The main feed
 export default function Feed({ selectedTags, selectedPubTypes, setTagSelectionOpen }) {
   const [items, setItems] = useState({ papers: [], guidelines: [], drugs: [], konsilium: [] });
