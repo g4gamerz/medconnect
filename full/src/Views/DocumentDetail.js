@@ -5,27 +5,22 @@ import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from '@mui/material/Link';
 import Tags from './Tags.js';
+import { formatDateSafe } from '../utils/formatters.js'; // Import the new function
 
 // Helper function to make property keys more readable
 const formatKey = (key) => {
   return key.replace(/([A-Z])/g, ' $1').trim();
 };
 
-// --- THIS COMPONENT IS NOW UPDATED ---
 function GuidelineDetail({ document }) {
   const createMarkup = (htmlContent) => {
     return {__html: htmlContent};
   };
 
-  // Helper to format dates to DD.MM.YYYY
-  const formatDate = (dateString) => {
-    if (!dateString) return 'N/A';
-    return new Date(dateString).toLocaleDateString('de-DE');
-  };
+  // The local formatDate helper is removed. We'll use formatDateSafe directly.
 
   return (
     <Stack spacing={2.5}>
-      {/* Bug Fix: Changed document.Tags to document.tags */}
       <Tags tags={document.tags} date={document.Stand} /> 
       <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
         {document.Indication}
@@ -33,18 +28,14 @@ function GuidelineDetail({ document }) {
       <Typography variant="subtitle1" color="text.secondary">
         Source: <Link href={document.Quelle} target="_blank" rel="noopener">{document.Quelle}</Link>
       </Typography>
-
-      {/* Bug Fix: Placed dates in a robust flex container */}
       <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
         <Typography variant="body2" color="text.secondary">
-          <strong>Start Date:</strong> {formatDate(document.Stand)}
+          <strong>Start Date:</strong> {formatDateSafe(document.Stand)}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          <strong>Expiry Date:</strong> {formatDate(document.Gueltigkeit)}
+          <strong>Expiry Date:</strong> {formatDateSafe(document.Gueltigkeit)}
         </Typography>
       </Box>
-
-      {/* Render HTML content from the 'Neuerung' field */}
       {document.Neuerung && (
         <Box sx={{ mt: 2, "& ul": { pl: 2.5 }, "& li": { mb: 1 } }} dangerouslySetInnerHTML={createMarkup(document.Neuerung)} />
       )}
