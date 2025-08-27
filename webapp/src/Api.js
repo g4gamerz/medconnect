@@ -1,5 +1,6 @@
-// The base URL will be set by an environment variable on the hosting platform
+import express from 'express';
 const API_URL = process.env.REACT_APP_API_URL;
+const app = express();
 
 /// Api request to fetch documents with multiple filters
 export async function fetchItems(filters) {
@@ -22,3 +23,7 @@ export async function fetchPublicationTypes() {
   const response = await fetch(`${API_URL}/api/fetchPublicationTypes`);
   return await response.json();
 }
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
