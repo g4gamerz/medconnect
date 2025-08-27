@@ -5,7 +5,7 @@ import {
   fetchItemsFromDb, 
   fetchTagsFromDb, 
   fetchPublicationTypesFromDb 
-} from './db.js'; // Path is now relative to this file
+} from './db/db.js';
 
 dotenv.config();
 

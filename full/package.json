@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node api/seed.js && react-scripts build",
+    "build": "node api/db/seed.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
